@@ -4,10 +4,12 @@ public class Student extends Human {
 	private String univer;
 	private String group;
 
-	public Student(String name, int age, String sex, String univer) {
-		super(name, age, sex);
-		this.univer = univer;
-	}
+		
+	public Student(String name, String fio, int age, String sex, String univer) {
+			super(name, fio, age, sex);
+			this.univer = univer;
+			//this.group = group;
+		}
 
 	public Student() {
 		super();

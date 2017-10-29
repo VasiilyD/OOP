@@ -1,7 +1,8 @@
 package vrd.com;
 
-public class Shape {
+public abstract class Shape {
 
-	
-	
+	abstract double calculatePerimetr();
+
+	abstract double calculateArea();
 }

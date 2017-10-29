@@ -3,12 +3,16 @@ package vrd.com;
 public class Human {
 
 	private String name;
+	private String fio;
 	private int age;
 	private String sex;
 
-	public Human(String name, int age, String sex) {
+	
+
+	public Human(String name, String fio, int age, String sex) {
 		super();
 		this.name = name;
+		this.fio = fio;
 		this.age = age;
 		this.sex = sex;
 	}
@@ -22,8 +26,16 @@ public class Human {
 		return name;
 	}
 
-	public String getSex() {
-		return sex;
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getFio() {
+		return fio;
+	}
+
+	public void setFio(String fio) {
+		this.fio = fio;
 	}
 
 	public int getAge() {
@@ -34,8 +46,19 @@ public class Human {
 		this.age = age;
 	}
 
-	public String toString() {
-		return "name=" + name + ", age=" + age + ", sex=" + sex;
+	public String getSex() {
+		return sex;
 	}
 
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
+
+	@Override
+	public String toString() {
+		return "Human [name=" + name + ", fio=" + fio + ", age=" + age + ", sex=" + sex + "]";
+	}
+
+	
+	
 }

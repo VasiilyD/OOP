@@ -3,20 +3,20 @@ package vrd.com;
 public class Main {
 
 	public static void main(String[] args) {
-		Student student1 = new Student("Tom", 18, "M", "NAU");
-		Student student2 = new Student("Jhon", 18, "M", "NAU");
-		Student student3 = new Student("aA", 18, "M", "NAU");
-		Student student4 = new Student("Alex", 18, "M", "NAU");
-		Student student5 = new Student("aa", 18, "M", "NAU");
-		Student student6 = new Student("Ab", 18, "W", "NAU");
-		Student student7 = new Student("Alla", 18, "W", "NAU");
-		Student student8 = new Student("Kate", 18, "W", "NAU");
-		Student student9 = new Student("Lili", 18, "W", "NAU");
-		Student student10 = new Student("Kira", 18, "W", "NAU");
-		Student student11 = new Student("Juli", 18, "W", "NAU");
+		Student student1 = new Student("Tom","LE", 18, "M", "NAU");
+		Student student2 = new Student("Jhon","BE", 18, "M", "NAU");
+		Student student3 = new Student("aA","RU", 18, "M", "NAU");
+		Student student4 = new Student("Alex","GUL", 18, "M", "NAU");
+		Student student5 = new Student("aa","Ivan", 18, "M", "NAU");
+		Student student6 = new Student("Ab","Gre", 18, "W", "NAU");
+		Student student7 = new Student("Alla","Bre", 18, "W", "NAU");
+		Student student8 = new Student("Kate","Den", 18, "W", "NAU");
+		Student student9 = new Student("Lili","Gen", 18, "W", "NAU");
+		Student student10 = new Student("Kira","Jan", 18, "W", "NAU");
+		Student student11 = new Student("Juli","Int", 18, "W", "NAU");
 		Group groupOne = new Group("A17");
 		// check 1st student and group after creation
-		//2System.out.println(student1);
+		System.out.println(student1);
 		System.out.println(groupOne);
 		System.out.println();
 
